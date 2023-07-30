@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+
+#define int long long
+
+$1
+
+
+void test_case() {
+	
+	$2
+	
+}
+
+signed main() {
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
+    // freopen("error.txt", "w", stderr);
+	
+	ios::sync_with_stdio(false);
+	cin.tie(0); 
+	
+	int t = 1;
+	//cin >> t;
+	while(t--){
+		test_case();
+	}
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tleetcode</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
