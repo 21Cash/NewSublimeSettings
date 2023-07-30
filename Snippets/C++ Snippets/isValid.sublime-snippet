@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+bool isValid(int r, int c, int rows, int cols, vector<vector<int>>& grid, vector<vector<int>>& vis) {
+    return (r >= 0 && r < rows && c >= 0 && c < cols && grid[r][c] == 0 && !vis[r][c]);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_isValid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
