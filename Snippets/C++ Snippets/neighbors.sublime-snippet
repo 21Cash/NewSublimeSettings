@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-int delRow[4] = {+1, 0, 0, -1};
-int delCol[4] = {0, -1, +1, 0};
+int dir[4][2] = {{-1,0}, {0, 1}, {1,0},{0,-1}};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>_neighbors</tabTrigger>
