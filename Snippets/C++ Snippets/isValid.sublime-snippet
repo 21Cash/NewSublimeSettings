@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-bool isValid(int r, int c, int rows, int cols, vector<vector<int>>& grid, vector<vector<int>>& vis) {
-    return (r >= 0 && r < rows && c >= 0 && c < cols && grid[r][c] == 0 && !vis[r][c]);
+bool isValid(int r, int c, int rows, int cols) {
+    return (r >= 0 && r < rows && c >= 0 && c < cols);
 }
 
 ]]></content>
