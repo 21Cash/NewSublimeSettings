@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-class MinMaxSegmentTree {
+class SegmentTree {
 private:
     int n; // Size of the input array
     std::vector<int> min_tree; // Segment tree for minimum values
@@ -57,7 +57,7 @@ private:
     }
 
 public:
-    MinMaxSegmentTree(const std::vector<int>& arr) {
+    SegmentTree(const std::vector<int>& arr) {
         n = arr.size();
         min_tree.resize(4 * n);
         max_tree.resize(4 * n);
