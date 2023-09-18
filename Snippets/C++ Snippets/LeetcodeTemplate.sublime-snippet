@@ -4,7 +4,8 @@
 using namespace std;
 
 #define ll long long
-#define db(x) cout << #x  << " : " << x << "\n";
+#define db(x) cout << #x << " : " << x << " ";
+#define debug(x) cout << #x  << " : " << x << "\n";
 
 $1
 
