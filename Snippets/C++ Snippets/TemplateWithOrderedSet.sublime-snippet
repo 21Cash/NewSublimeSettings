@@ -1,7 +1,11 @@
 <snippet>
 	<content><![CDATA[
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+
 using namespace std;
+using namespace __gnu_pbds;
 
 #define ll long long
 #define debug(x) cout << #x  << " : " << x << "\n";
@@ -13,6 +17,8 @@ template<typename T> istream& operator>>(istream& in, vector<T>& a) {for(auto &x
 template<typename T> ostream& operator<<(ostream& out, vector<T>& a) {for(auto &x : a) out << x << ' '; return out;};
 template<typename T1, typename T2> ostream& operator<<(ostream& out, const pair<T1, T2>& x) {return out << x.first << ' ' << x.second;}
 template<typename T1, typename T2> istream& operator>>(istream& in, pair<T1, T2>& x) {return in >> x.first >> x.second;}
+
+template <typename T> using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 const long long INF = 1e18;
 
@@ -43,7 +49,7 @@ signed main() {
 	
 </content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tleetcode</tabTrigger>
+	<tabTrigger>tordered</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
